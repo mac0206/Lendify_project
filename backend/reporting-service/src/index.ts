@@ -10,7 +10,7 @@ import { connectDatabase, disconnectDatabase } from './utils/database';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT2 || 3003;
 const SERVICE_NAME = 'Reporting Service';
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/library-system';
 
